@@ -1,0 +1,23 @@
+body {
+    background-color: cadetblue;
+}
+header{
+    display: flex;
+    justify-content:baseline;
+    color: rgb(58, 58, 225);
+}
+footer {
+    display: flex;
+    justify-content: baseline;
+}
+h1{
+    display: flex;
+    justify-content: baseline;
+    color: rgb(199, 244, 196)
+}
+nav li {
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+}

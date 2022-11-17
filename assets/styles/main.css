@@ -1,4 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
+.about-section {
+    color: rgb(250,10,100);
+}
+
+.education-section{
+    color: red;
+    display: flex;
+    flex-direction: column;
 }
