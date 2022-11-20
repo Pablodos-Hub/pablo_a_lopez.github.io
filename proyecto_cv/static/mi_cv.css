@@ -2,49 +2,95 @@
    margin: 0;
    padding: 0;
 }
-img{
-   border-radius: 12%;
-   height: 200px;
-   display: flex;
-   justify-content: flex-start;
-   padding: 2%;
 
+body {
+   background-color: rgb(93, 132, 239);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+   height: auto;
 }
+
 header{
-   background-color: rgb(87, 87, 235);
+   padding: 2%;
    display: flex;
    flex-direction: row;
+   align-items:center;
+   gap: 2%;
+   border-bottom: 2px solid black;
+   height: 15vh;
+   width: auto;
+   
 }
-h1{
-   display: flex;
+
+header img{
+   border: 2px solid black;
+   border-radius: 2%;
+   min-height: 80px;
+   max-height: 150px;
+   min-width: 80px;
+   max-width: 150px;
+}
+
+header h1{
    color: aliceblue;
-   align-items: center;
-   padding: 2%;
+   text-shadow: black 1px 1px 2px;
 }
+
 .about-section{
-   color: rgb(255, 255, 255);
-   background-color: rgb(87, 87,235);
-   padding: 2%;
-   border-top: 2px;
-   border-right: 0px;
-   border-bottom: 0px;
-   border-left: 0px;
-   border-style: solid;
-   border-color: rgb(52, 51, 51);
-}
-.experience-section {
-   background-color: rgb(147, 141, 231);
-   color: aliceblue;
    display: flex;
-   justify-content: space-between;
+   flex-direction: column;
+   color: aliceblue;
+   font-size: medium;
+   text-shadow: black 1px 1px 2px;
+   border-bottom: 2px solid black;
+   padding: 2%;
+   overflow: scroll;
+   width: 100%;
+   height: 5vmax;
+   
+}
+.experience-section{
+   background-color: rgb(190, 175, 248);
+   display: flex;
    flex-direction: column;
    padding: 2%;
-
+   color: white;
+   text-shadow: black 1px 1px 2px;
+   border-left: 2px solid black;
+   width: 50%;
+   min-width: 40%;
+   flex-grow: 1;
+}
+.education-section{
+   padding-bottom: 5%;
 }
 
 .contact-section{
-   background-color: brown;
    display: flex;
    flex-direction: column;
+   color: aliceblue;
+   font-size: medium;
+   text-shadow: black 1px 1px 2px;
    padding: 2%;
+   min-width: 20%;
+   width: 50%;
+   flex-grow: 1;
+}
+.skills-section{
+   padding-bottom: 5%;
+}
+
+.information-section{
+   background-color: rgb(190,175,248);
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content:space-between;
+   height: 48vmax;
+}
+.personal-section{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
 }
