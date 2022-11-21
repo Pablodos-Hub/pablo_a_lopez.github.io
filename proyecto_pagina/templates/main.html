@@ -5,16 +5,16 @@
         <link rel="stylesheet" href="/static/style.css">
     </head>
     <body>
-        <header>saludos para todos</header>
-        <h1>SALUDOS PARA TODOS</h1>
+        <header><h1>SALUDOS PARA TODOS</h1></header>
         <nav class="inicial">
             <ul>
-                <li><a href="/templates/main.html">Inicio</a></li>
+                <li><a href="/"><strong>Inicio</strong></a></li>
             </ul>
         </nav>
-        <form action="/templates/saludo.html">
+        <form action="/saludo" value="Nombre">
+            <p>Nombre</p>
             <input type="text">
-            <input type="submit" value="enviar" >
+            <button type="submit"><img src="/static/img/como.png" alt="x"/></button>
         </form>
     </body>
     <footer>

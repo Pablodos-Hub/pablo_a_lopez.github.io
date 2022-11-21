@@ -8,7 +8,7 @@ def main():
 
 @app.get("/saludo")
 def pagina2():
-   return render_template("saludo.html",nombre =nombre)
+   return render_template("saludo.html",nombre = nombre())
 
 def nombre():
-   return request.args.get("nombre","algo")
+   return request.args.get("nombre","cual,nombre?")   
