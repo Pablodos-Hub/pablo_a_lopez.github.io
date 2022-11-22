@@ -3,6 +3,7 @@
     <head>
         <title>Saludo</title>
         <link rel="stylesheet" href="/static/style.css">
+        <link rel="shortcut icon" href="/static/img/burro.jpeg"
     </head>
     <body>
         <header><h1>SALUDOS PARA TODOS</h1></header>
@@ -12,8 +13,8 @@
             </ul>
         </nav>
         <form action="/saludo" value="Nombre">
-            <p>Nombre</p>
-            <input type="text">
+            <label for="input">Nombre:</label>
+            <input class="input" type="text" name=nombre>
             <button type="submit"><img src="/static/img/como.png" alt="x"/></button>
         </form>
     </body>
